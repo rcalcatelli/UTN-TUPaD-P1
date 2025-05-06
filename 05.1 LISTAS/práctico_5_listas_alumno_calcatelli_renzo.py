@@ -40,7 +40,10 @@ listas anidadas.
 #### **Código en Python:**
 """
 
+# Crea una lista con los múltiplos de 4 del 1 al 100.
 multiplos_de_cuatro = list(range(4, 101, 4))
+
+# Imprime la lista creada.
 print(multiplos_de_cuatro)
 
 """**Explicación:**
@@ -65,15 +68,27 @@ print(multiplos_de_cuatro)
 #### **Código en Python (opción con índice negativo):**
 """
 
+# Define una lista llamada "mi_lista_favorita".
 mi_lista_favorita = ["libro", "café", "música", "viajar", "playa"]
+
+# Accede al penúltimo elemento usando indexación negativa.
 penultimo_elemento = mi_lista_favorita[-2]
+
+# Imprime el penúltimo elemento.
 print(f"El penúltimo elemento es: {penultimo_elemento}")
 
 """#### **Código en Python (opción con longitud):**"""
 
+# Define una lista llamada "mi_lista_favorita".
 mi_lista_favorita = ["libro", "café", "música", "viajar", "playa"]
+
+# Calcula el índice del penúltimo elemento (len() da la longitud, -2 para ir dos posiciones atrás desde el final).
 penultimo_indice = len(mi_lista_favorita) - 2
+
+# Accede al elemento en ese índice para obtener el penúltimo elemento.
 penultimo_elemento = mi_lista_favorita[penultimo_indice]
+
+# Imprime el penúltimo elemento.
 print(f"El penúltimo elemento es: {penultimo_elemento}")
 
 """**Explicación:**
@@ -101,10 +116,19 @@ print(f"El penúltimo elemento es: {penultimo_elemento}")
 #### **Código en Python:**
 """
 
+# Crea una lista vacía llamada "lista_de_palabras".
 lista_de_palabras = []
+
+# Agrega la palabra "sol" al final de la lista.
 lista_de_palabras.append("sol")
+
+# Agrega la palabra "luna" al final de la lista.
 lista_de_palabras.append("luna")
+
+# Agrega la palabra "estrella" al final de la lista.
 lista_de_palabras.append("estrella")
+
+# Imprime la lista "lista_de_palabras".
 print(lista_de_palabras)
 
 """**Explicación:**
@@ -130,9 +154,16 @@ print(lista_de_palabras)
 #### **Código en Python:**
 """
 
+# Crea una lista llamada "animales" con cuatro elementos.
 animales = ["perro", "gato", "conejo", "pez"]
-animales[1] = "loro"  # Reemplaza el segundo elemento (índice 1) con "loro"
-animales[-1] = "oso"  # Reemplaza el último elemento (índice -1) con "oso"
+
+# Reemplaza el segundo elemento (índice 1) con "loro".
+animales[1] = "loro"
+
+# Reemplaza el último elemento (índice -1) con "oso".
+animales[-1] = "oso"
+
+# Imprime la lista "animales" modificada.
 print(animales)
 
 """**Explicación:**
@@ -182,9 +213,16 @@ print(numeros[:2])  # Imprime los dos primeros elementos (índices 0 y 1)
 ### **Actividad 7: Reemplazar los valores centrales de la lista "autos":**
 """
 
+# Crea una lista llamada "autos" con cuatro elementos.
 autos = ["sedan", "polo", "suran", "gol"]
-autos[1] = "focus"  # Reemplaza "polo" con "focus"
-autos[2] = "fiesta"  # Reemplaza "suran" con "fiesta"
+
+# Reemplaza el segundo elemento (índice 1) con "focus".
+autos[1] = "focus"
+
+# Reemplaza el tercer elemento (índice 2) con "fiesta".
+autos[2] = "fiesta"
+
+# Imprime la lista "autos" modificada.
 print(autos)
 
 """**Explicación:**
@@ -194,10 +232,19 @@ print(autos)
 ### **Actividad 8: Crear una lista vacía y agregar el doble de 5, 10 y 15:**
 """
 
+# Crea una lista vacía llamada "dobles".
 dobles = []
+
+# Agrega el doble de 5 al final de la lista.
 dobles.append(5 * 2)
+
+# Agrega el doble de 10 al final de la lista.
 dobles.append(10 * 2)
+
+# Agrega el doble de 15 al final de la lista.
 dobles.append(15 * 2)
+
+# Imprime la lista "dobles".
 print(dobles)
 
 """**Explicación:**
@@ -208,19 +255,22 @@ print(dobles)
 ### **Actividad 9: Modificar la lista "compras":**
 """
 
+# Crea una lista llamada "compras" que representa las compras de tres clientes.
+# Cada cliente tiene su propia sublista de productos.
 compras = [["pan", "leche"], ["arroz", "fideos", "salsa"], ["agua"]]
 
 # a) Agregar "jugo" al tercer cliente
-compras[2].append("jugo")
+compras[2].append("jugo")  # Accede a la sublista del tercer cliente (índice 2) y agrega "jugo" al final.
 
 # b) Reemplazar "fideos" por "tallarines"
-compras[1][1] = "tallarines"
+compras[1][1] = "tallarines"  # Accede a la sublista del segundo cliente (índice 1),
+                              # luego al segundo elemento (índice 1, "fideos") y lo reemplaza con "tallarines".
 
 # c) Eliminar "pan" del primer cliente
-compras[0].remove("pan")
+compras[0].remove("pan")  # Accede a la sublista del primer cliente (índice 0) y elimina "pan".
 
 # d) Imprimir la lista resultante
-print(compras)
+print(compras)  # Muestra la lista "compras" modificada en pantalla.
 
 """**Explicación:**
 
@@ -231,7 +281,9 @@ print(compras)
 ### **Actividad 10: Crear una lista anidada:**
 """
 
+# Crea una lista anidada llamada "lista_anidada" con diferentes tipos de datos.
 lista_anidada = [15, True, [25.5, 57.9, 30.6], False]
+# Imprime la lista "lista_anidada" en la consola.
 print(lista_anidada)
 
 """**Explicación:**
