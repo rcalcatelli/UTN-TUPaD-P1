@@ -26,7 +26,8 @@ Desarrollar la comprensión y la capacidad de manipular listas en Python mediant
 2.  ⬇️ Descarga o clona este repositorio.
 3.  📂 Navega a la carpeta del proyecto en tu terminal.
 4.  ▶️ Ejecuta el archivo Python con el siguiente comando:
+   
     ```bash
     python práctico_5_listas_alumno_calcatelli_renzo.py
     ```
-5.  <0xF0><0x9F><0x8E><0x9E> Observa la salida en la consola para ver los resultados de cada actividad.
+5.  Observa la salida en la consola para ver los resultados de cada actividad.
