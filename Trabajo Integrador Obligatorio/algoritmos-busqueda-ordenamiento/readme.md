@@ -59,10 +59,19 @@ algoritmos-busqueda-ordenamiento/
 
 ---
 
-## ⚙️ Requisitos
+## 📦 Dependencias del Proyecto
 
-- Python **3.8 o superior**
-- Instalar dependencias con:
+### Librerías de Terceros
+- **matplotlib** (>=3.7.1): Utilizada para la generación de gráficos de rendimiento
+- **numpy** (>=1.24.3): Utilizada para operaciones numéricas y manejo de arrays
+- **pytest** (>=7.3.1): Framework para pruebas unitarias
+
+### Librerías Estándar de Python
+- **copy**: Para la copia de objetos
+- **random**: Para la generación de números aleatorios
+- **sys**: Para operaciones del sistema
+  
+### Instalar dependencias con:
   ```bash
   pip install -r requirements.txt
   ```
@@ -72,6 +81,7 @@ algoritmos-busqueda-ordenamiento/
 ## 🖥️ ¿Cómo usar el menú interactivo?
 
 1. Ejecuta el programa principal:
+   
    ```bash
    python main.py
    ```
@@ -135,7 +145,7 @@ Resultado de búsqueda binaria en lista original: No encontrado (Tiempo: 0.00000
 ## 📚 Créditos
 
 Trabajo realizado para la materia **Programación I** - UTN  
-Autores: Renzo Calcatelli y Hugo Albertini
+Autores: **Renzo Calcatelli** y **Hugo Albertini**
 
 ---
 
@@ -150,20 +160,4 @@ Es importante destacar que:
 - Las decisiones finales sobre implementación y estructura fueron tomadas por el desarrollador
 - La IA fue utilizada como herramienta de apoyo, no como reemplazo del trabajo intelectual
 
-## 📦 Dependencias del Proyecto
 
-### Librerías de Terceros
-- **matplotlib** (>=3.7.1): Utilizada para la generación de gráficos de rendimiento
-- **numpy** (>=1.24.3): Utilizada para operaciones numéricas y manejo de arrays
-- **pytest** (>=7.3.1): Framework para pruebas unitarias
-
-### Librerías Estándar de Python
-- **copy**: Para la copia de objetos
-- **random**: Para la generación de números aleatorios
-- **sys**: Para operaciones del sistema
-
-### Instalación de Dependencias
-Para instalar todas las dependencias necesarias, ejecute:
-```bash
-pip install -r requirements.txt
-```
