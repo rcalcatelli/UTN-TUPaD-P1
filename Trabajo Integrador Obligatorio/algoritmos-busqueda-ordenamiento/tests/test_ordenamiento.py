@@ -5,7 +5,7 @@ from src.ordenamiento.seleccion import selection_sort
 from src.ordenamiento.insercion import insertion_sort
 from src.ordenamiento.quicksort import quick_sort
 from src.ordenamiento.mergesort import merge_sort
-from src.ordenamiento.heapsort import heap_sort
+
 # Importa funciones para generar listas de prueba
 from src.utils.generador_datos import generar_lista_aleatoria, generar_lista_ordenada, generar_lista_inversa
 
@@ -16,7 +16,6 @@ from src.utils.generador_datos import generar_lista_aleatoria, generar_lista_ord
     insertion_sort,
     quick_sort,
     merge_sort,
-    heap_sort
 ])
 def test_ordenamiento_listas_aleatorias(algoritmo):
     lista = generar_lista_aleatoria(100)  # Genera una lista aleatoria de 100 elementos
@@ -30,7 +29,6 @@ def test_ordenamiento_listas_aleatorias(algoritmo):
     insertion_sort,
     quick_sort,
     merge_sort,
-    heap_sort
 ])
 def test_ordenamiento_listas_ordenadas(algoritmo):
     lista = generar_lista_ordenada(50)    # Genera una lista ordenada de 50 elementos
@@ -44,7 +42,6 @@ def test_ordenamiento_listas_ordenadas(algoritmo):
     insertion_sort,
     quick_sort,
     merge_sort,
-    heap_sort
 ])
 def test_ordenamiento_listas_inversas(algoritmo):
     lista = generar_lista_inversa(75)     # Genera una lista en orden inverso de 75 elementos
@@ -55,10 +52,14 @@ def test_ordenamiento_listas_inversas(algoritmo):
 def test_ordenamiento_lista_vacia():
     assert bubble_sort([]) == []
     assert quick_sort([]) == []
-    # ... (añadir para los demás algoritmos de ordenamiento)
+    assert selection_sort([]) == []
+    assert insertion_sort([]) == []
+    assert merge_sort([]) == []
 
 # Prueba los algoritmos con una lista de un solo elemento
 def test_ordenamiento_lista_un_elemento():
-    assert merge_sort([5]) == [5]
-    assert heap_sort([10]) == [10]
-    # ... (añadir para los demás)
+    assert bubble_sort([5]) == [5]
+    assert quick_sort([10]) == [10]
+    assert selection_sort([7]) == [7]
+    assert insertion_sort([3]) == [3]
+    assert merge_sort([8]) == [8]

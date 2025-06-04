@@ -1,8 +1,6 @@
 def busqueda_binaria(lista, elemento):
-    """
-    Implementación iterativa de búsqueda binaria
-    Devuelve el índice del elemento si se encuentra, -1 si no
-    """
+    # Implementación iterativa de búsqueda binaria
+    # Devuelve el índice del elemento si se encuentra, -1 si no
     izquierda, derecha = 0, len(lista) - 1
     
     while izquierda <= derecha:

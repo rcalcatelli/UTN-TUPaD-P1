@@ -136,3 +136,16 @@ Resultado de búsqueda binaria en lista original: No encontrado (Tiempo: 0.00000
 
 Trabajo realizado para la materia **Programación I** - UTN  
 Autores: Renzo Calcatelli y Hugo Albertini
+
+---
+
+## 🤖 Herramientas y Asistencia en el Desarrollo
+Este proyecto ha sido desarrollado con la asistencia de herramientas de Inteligencia Artificial (IA) para:
+- Estructuración inicial del proyecto
+- Asistencia en la redacción de documentación
+- Sugerencias de implementación y optimización de código
+
+Es importante destacar que:
+- Todo el código ha sido revisado, validado y comprendido por el desarrollador
+- Las decisiones finales sobre implementación y estructura fueron tomadas por el desarrollador
+- La IA fue utilizada como herramienta de apoyo, no como reemplazo del trabajo intelectual
