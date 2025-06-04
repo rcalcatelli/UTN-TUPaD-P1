@@ -120,7 +120,7 @@ Resultado de búsqueda binaria en lista original: No encontrado (Tiempo: 0.00000
 
 ## 📈 Ejemplo de gráfico
 
-![Gráfico de rendimiento de algoritmos de ordenamiento](docs/grafico_ordenamiento.png)
+![Gráfico de rendimiento de algoritmos de ordenamiento](assets/grafico_ordenamiento.png)
 
 ---
 
