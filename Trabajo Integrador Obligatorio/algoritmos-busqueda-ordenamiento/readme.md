@@ -46,13 +46,12 @@ algoritmos-busqueda-ordenamiento/
 │   │   ├── seleccion.py
 │   │   ├── insercion.py
 │   │   ├── quicksort.py
-│   │   ├── mergesort.py
-│   │   └── heap_utils.py
+│   │   └── mergesort.py
+│   │ 
 │   └── busqueda/
 │       ├── lineal.py
-│       ├── binaria.py
-│       ├── hash_table.py
-│       └── busqueda_hash.py
+│       └── binaria.py
+│       
 └── tests/ (opcional, solo si se usan pruebas automáticas)
     ├── test_busqueda.py
     └── test_ordenamiento.py
