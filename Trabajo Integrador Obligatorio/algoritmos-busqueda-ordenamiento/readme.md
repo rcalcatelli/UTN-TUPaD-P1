@@ -149,3 +149,21 @@ Es importante destacar que:
 - Todo el código ha sido revisado, validado y comprendido por el desarrollador
 - Las decisiones finales sobre implementación y estructura fueron tomadas por el desarrollador
 - La IA fue utilizada como herramienta de apoyo, no como reemplazo del trabajo intelectual
+
+## 📦 Dependencias del Proyecto
+
+### Librerías de Terceros
+- **matplotlib** (>=3.7.1): Utilizada para la generación de gráficos de rendimiento
+- **numpy** (>=1.24.3): Utilizada para operaciones numéricas y manejo de arrays
+- **pytest** (>=7.3.1): Framework para pruebas unitarias
+
+### Librerías Estándar de Python
+- **copy**: Para la copia de objetos
+- **random**: Para la generación de números aleatorios
+- **sys**: Para operaciones del sistema
+
+### Instalación de Dependencias
+Para instalar todas las dependencias necesarias, ejecute:
+```bash
+pip install -r requirements.txt
+```
