@@ -1,12 +1,6 @@
-# Requerimientos para el proyecto de algoritmos de búsqueda y ordenamiento
-
-# Dependencias principales
-matplotlib>=3.7.0  # Para generación de gráficos
-pytest>=7.3.0      # Para ejecución de pruebas
-pytest-cov>=3.0.0  # Para reporte de cobertura de tests
-numpy>=1.24.0      # Para manejo eficiente de datos en pruebas grandes
-
-# Dependencias opcionales (recomendadas para desarrollo)
-black>=23.3.0      # Formateador de código
-pylint>=2.17.0     # Linter para calidad de código
-mypy>=1.0.0        # Chequeo de tipos
+# Lista de dependencias necesarias para el proyecto.
+# Incluye bibliotecas para gráficos (matplotlib), cálculos numéricos (numpy) y pruebas (pytest).
+# requirements.txt
+matplotlib
+numpy
+pytest
