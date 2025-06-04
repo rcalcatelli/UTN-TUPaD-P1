@@ -19,18 +19,18 @@
 
 - **Resultados esperados:**  
   - Los algoritmos O(n²) (burbuja, selección, inserción) son mucho más lentos en listas grandes.
-  - Los algoritmos O(n log n) (quicksort, mergesort, heapsort) son eficientes incluso con listas grandes.
+  - Los algoritmos O(n log n) (quicksort, mergesort) son eficientes incluso con listas grandes.
 
 ---
 
 ### 2. Pruebas de Algoritmos de Búsqueda
 
 - **Pruebas manuales:**  
-  Se probó la búsqueda lineal, binaria y por hash con:
+  Se probó la búsqueda lineal y binaria con:
   - Listas de ejemplo
   - Listas vacías
   - Listas de un solo elemento  
-  ✅ Todos retornan correctamente la posición del elemento si existe, o “No encontrado” si no está.
+  ✅ Ambos algoritmos retornan correctamente la posición del elemento si existe, o "No encontrado" si no está.
 
 - **Pruebas interactivas:**  
   El menú permite:
@@ -38,12 +38,10 @@
   - Buscar un elemento en ambas listas (cuando aplica).
   - Medir el tiempo de búsqueda en cada caso.
   - Comprobar que la búsqueda binaria solo funciona correctamente en listas ordenadas.
-  - Ver que la búsqueda por hash no depende del orden de la lista.
 
 - **Resultados esperados:**  
   - La búsqueda lineal funciona en cualquier lista.
   - La búsqueda binaria solo es válida en listas ordenadas.
-  - La búsqueda por hash es muy rápida y no depende del orden.
   - En listas vacías, ningún algoritmo encuentra el elemento.
 
 ---
