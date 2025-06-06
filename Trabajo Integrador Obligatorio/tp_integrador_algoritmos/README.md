@@ -2,7 +2,7 @@
 
 Este proyecto implementa y compara diferentes algoritmos de ordenamiento y búsqueda, permitiendo analizar su rendimiento en términos de tiempo de ejecución mediante una interfaz de consola interactiva.
 
-## Características
+## 🚀 Características
 
 - Implementación de múltiples algoritmos de ordenamiento:
   - Selection Sort
@@ -10,19 +10,18 @@ Este proyecto implementa y compara diferentes algoritmos de ordenamiento y búsq
   - Bubble Sort
   - Quicksort
   - Mergesort
-
 - Implementación de algoritmos de búsqueda:
   - Búsqueda Lineal
   - Búsqueda Binaria
-
-- Menú interactivo para seleccionar las operaciones a realizar
+- Menú interactivo para seleccionar operaciones
 - Comparación de tiempos de ejecución en consola
 - Generación de listas aleatorias para pruebas
-- No requiere dependencias externas
+- **No requiere dependencias externas**
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
+
 integrador_algoritmos/
 │
 ├── src/
@@ -32,110 +31,97 @@ integrador_algoritmos/
 │
 ├── main.py                         # Programa principal con menú interactivo
 └── README.md                       # Este archivo
-```
 
-## Requisitos
+````
 
-- Python 3.8 o superior (no se requieren dependencias externas)
+## ⚙️ Requisitos
 
-## Instalación
+- Python 3.8 o superior  
+- No se necesitan librerías externas
 
-1. Clonar o descargar el repositorio
-2. Navegar al directorio del proyecto
-3. Ejecutar el programa principal:
+## 🧪 Instalación y Ejecución
+
 ```bash
-python main.py
-```
+# 1. Clonar o descargar el repositorio
+git clone https://github.com/rcalcatelli/UTN-TUPaD-P1
 
-## Uso
+# 2. Navegar al directorio
+cd integrador_algoritmos
+
+# 3. Ejecutar el programa principal
+python main.py
+````
+
+## 📌 Uso
 
 El programa presenta un menú interactivo con las siguientes opciones:
 
 1. **Ejecutar algoritmos de ordenamiento**
-   - Muestra los tiempos de ejecución de cada algoritmo
-   - Indica el algoritmo más rápido y más lento
-   - Verifica la correctitud del ordenamiento
+
+   * Muestra los tiempos de ejecución de cada algoritmo
+   * Indica el más rápido y más lento
+   * Verifica que el ordenamiento sea correcto
 
 2. **Ejecutar algoritmos de búsqueda**
-   - Compara búsqueda lineal vs binaria
-   - Muestra los tiempos de ejecución
-   - Indica la posición del elemento encontrado
+
+   * Compara búsqueda lineal vs binaria
+   * Muestra tiempos de ejecución
+   * Indica la posición del elemento si fue encontrado
 
 3. **Ejecutar ambos**
-   - Realiza todas las comparaciones anteriores
+
+   * Realiza todas las comparaciones anteriores
 
 4. **Salir**
-   - Finaliza el programa
 
-## Algoritmos Implementados
+   * Finaliza el programa
 
-### Algoritmos de Ordenamiento
+---
 
-1. **Selection Sort (Ordenamiento por Selección)**
-   - Complejidad: O(n²)
-   - Características: Simple, in-place, no estable
-   - Uso: Listas pequeñas, cuando la memoria es limitada
+## 🔍 Algoritmos Implementados
 
-2. **Insertion Sort (Ordenamiento por Inserción)**
-   - Complejidad: O(n²)
-   - Características: Eficiente para listas pequeñas, estable
-   - Uso: Listas casi ordenadas, pequeñas
+### 📦 Ordenamiento
 
-3. **Bubble Sort (Ordenamiento Burbuja)**
-   - Complejidad: O(n²)
-   - Características: Simple, in-place, estable
-   - Uso: Propósitos educativos, listas muy pequeñas
+| Algoritmo      | Complejidad  | Estabilidad | Comentarios                                 |
+| -------------- | ------------ | ----------- | ------------------------------------------- |
+| Selection Sort | O(n²)        | ❌           | Simple, in-place, poco eficiente            |
+| Insertion Sort | O(n²)        | ✅           | Bueno para listas pequeñas o casi ordenadas |
+| Bubble Sort    | O(n²)        | ✅           | Educativo, ineficiente para listas grandes  |
+| Quicksort      | O(n log n)\* | ❌           | Muy rápido, no estable, in-place            |
+| Mergesort      | O(n log n)   | ✅           | Estable, eficiente, requiere memoria extra  |
 
-4. **Quicksort**
-   - Complejidad: O(n log n) promedio
-   - Características: Eficiente en la práctica, in-place
-   - Uso: Caso general, listas grandes
+### 🔎 Búsqueda
 
-5. **Mergesort**
-   - Complejidad: O(n log n)
-   - Características: Estable, requiere espacio adicional
-   - Uso: Cuando se necesita estabilidad, listas grandes
+| Algoritmo        | Complejidad | Requiere Ordenamiento | Uso recomendado                   |
+| ---------------- | ----------- | --------------------- | --------------------------------- |
+| Búsqueda Lineal  | O(n)        | No                    | Listas pequeñas o desordenadas    |
+| Búsqueda Binaria | O(log n)    | Sí                    | Listas ordenadas, alta eficiencia |
 
-### Algoritmos de Búsqueda
+---
 
-1. **Búsqueda Lineal**
-   - Complejidad: O(n)
-   - Características: Simple, funciona en listas no ordenadas
-   - Uso: Listas pequeñas o no ordenadas
+## ⚙️ Configuración por Defecto
 
-2. **Búsqueda Binaria**
-   - Complejidad: O(log n)
-   - Características: Requiere lista ordenada, muy eficiente
-   - Uso: Listas ordenadas de cualquier tamaño
+* Tamaño de la lista: **10,000** elementos
+* Rango de valores aleatorios: **1 a 1,000,000**
 
-## Configuración
+---
 
-El programa utiliza los siguientes parámetros por defecto:
-- Tamaño de lista: 10,000 elementos
-- Rango de valores: 1 a 1,000,000
+## 📌 Notas de Implementación
 
-## Notas de Implementación
+* Código en **Python puro**
+* Estructurado por módulos para facilitar su mantenimiento
+* Utiliza solo módulos de la biblioteca estándar
+* Incluye comentarios explicativos en el código fuente
 
-- Todos los algoritmos están implementados en Python puro
-- Se utilizan módulos de la biblioteca estándar de Python
-- No se requieren dependencias externas
-- El código está organizado en módulos para mejor mantenimiento
-- Se incluyen comentarios explicativos en el código
+---
 
-## Autores
+## 👥 Autores
 
-Albertini Hugo - Calcatelli Renzo
-- Materia: Programación I
-- Comisión: M2025-1
-- Universidad: UTN
-- Año: 2025
+Trabajo realizado para la materia **Programación I** - UTN (Universidad Tecnológica Nacional)  
+Autores: **Renzo Calcatelli** y **Hugo Albertini**
 
-## Contribución
 
-Si deseas contribuir al proyecto:
 
-1. Haz un fork del repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+
+
+
