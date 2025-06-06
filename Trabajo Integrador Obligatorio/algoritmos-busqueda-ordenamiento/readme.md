@@ -1,4 +1,4 @@
-# 📚 Análisis de Algoritmos de Búsqueda y Ordenamiento en Python
+# 📚 Análisis de Algoritmos de Búsqueda y Ordenamiento en Python (+ gráficos)
 
 Este proyecto implementa y compara distintos algoritmos clásicos de **búsqueda** y **ordenamiento**. Incluye pruebas interactivas, visualización de rendimiento y una estructura limpia.
 
@@ -148,16 +148,4 @@ Trabajo realizado para la materia **Programación I** - UTN (Universidad Tecnol�
 Autores: **Renzo Calcatelli** y **Hugo Albertini**
 
 ---
-
-## 🤖 Herramientas y Asistencia en el Desarrollo
-Este proyecto ha sido desarrollado con la asistencia de herramientas de Inteligencia Artificial (IA) para:
-- Estructuración inicial del proyecto
-- Asistencia en la redacción de documentación
-- Sugerencias de implementación y optimización de código
-
-Es importante destacar que:
-- Todo el código ha sido revisado, validado y comprendido por el desarrollador
-- Las decisiones finales sobre implementación y estructura fueron tomadas por el desarrollador
-- La IA fue utilizada como herramienta de apoyo, no como reemplazo del trabajo intelectual
-
 
