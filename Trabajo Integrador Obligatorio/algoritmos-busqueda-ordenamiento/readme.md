@@ -144,7 +144,7 @@ Resultado de búsqueda binaria en lista original: No encontrado (Tiempo: 0.00000
 
 ## 📚 Créditos
 
-Trabajo realizado para la materia **Programación I** - UTN  
+Trabajo realizado para la materia **Programación I** - UTN (Universidad Tecnológica Nacional)  
 Autores: **Renzo Calcatelli** y **Hugo Albertini**
 
 ---
